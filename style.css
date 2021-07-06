@@ -1,0 +1,125 @@
+
+body{
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: whitesmoke;
+    color: rgb(59, 58, 58);
+    
+    
+}
+h1{
+    font-size: 50px;
+}
+.menu ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #46B5D1;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: snow;
+}
+.menu{
+    margin-top: -20px;
+    text-align: right; 
+    background-color:#151965;
+    height: 100px;
+    padding-top: 30px;
+}
+
+.first-section{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.top-half{
+    margin-left: 50px;
+    width: 50%;
+    height: 100px;
+    padding-right: 10px;
+    padding-left: 20px;    
+}
+.top-half img{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+input{
+    text-decoration: none;
+    border: none;
+    font-size: large;
+    padding: 10px 20px;
+    color: whitesmoke;
+    font-weight: 800;
+    border-radius: 15px;
+    background-image: linear-gradient(to left,#151965,#32407B,#515585);
+}
+.middle-section{
+    display: flex;
+    margin-top: 35%;
+    margin-bottom: 100px;
+    background-image: url(framenew.jpg);
+    background-size: 100%;
+}
+.last-section{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.pic{
+    margin: 10px;
+    border: none;
+    box-shadow:5px 5px 30px  rgba(112, 111, 111, 0.8);
+    max-width: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    float: left;
+}
+.paragraph{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.pic img{
+    width: 100%;
+    height: 60%;
+}
+.my-recipie{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 30px;
+}
+.follower{
+    display: flex;
+    margin-right: 15%;
+    margin-left: 15%;
+    box-shadow:5px 5px 30px  rgba(112, 111, 111, 0.8);
+    text-align: center;
+    margin-top: 100px;
+    height: 200px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+.follow{
+    text-align: center;
+    padding: 80px;
+    margin-top: -60px;
+}
+
+.last-section .pic:hover{
+    box-shadow:5px 5px 30px black;
+    transition: 0.5s;   
+}
+.footer{
+    text-align: center;
+    background-color: #46B5D1;
+    margin-top: 50px;
+    height: 150px;
+    padding-top: 25px;   
+}
+
